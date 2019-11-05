@@ -7,6 +7,6 @@ export function addNote(title, content){
 
 export const REMOVE_NOTE='REMOVE_NOTE';
 
-export function remoteNote(id){
+export function removeNote (id){
     return {type: REMOVE_NOTE, id: id};
 }

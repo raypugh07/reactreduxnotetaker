@@ -2,9 +2,8 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {addNote} from '../actions/actions'
 
-import React, { Component } from 'react'
 
-export default class NotesForm extends Component {
+ class NotesForm extends Component {
 
     constructor(props){
         super(props);
