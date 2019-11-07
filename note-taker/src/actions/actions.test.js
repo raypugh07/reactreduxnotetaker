@@ -13,3 +13,16 @@ describe('actions',()=>{
 
     })
 })
+
+describe('actions',()=>{
+    it('should create an action to delete a note',()=>{
+    const id='id'
+    const expectedAction={
+        type:types.REMOVE_NOTE,
+        id
+    }
+    expect(actions.removeNote(id)).toEqual(expectedAction)
+    
+})
+
+})
